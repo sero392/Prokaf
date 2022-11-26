@@ -1,0 +1,68 @@
+:root {
+    --opacity: 1;
+    --primary-color: rgba(246, 163, 7, var(--opacity));
+    --primary-text-color: rgb(255, 22, 22);
+    --primary-font: 'Poppins', sans-serif;
+}
+
+body .bg-prokaf-primary {
+    background-color: var(--primary-color);
+}
+
+body a, span, h1 {
+    font-family: var(--primary-font);
+}
+
+
+/*#region infobar */
+.info-bar {
+    background-color: var(--primary-color);
+    min-height: 5vh;
+}
+
+/*#endregion*/
+
+/*#region Navbar*/
+
+.prokaf-navbar {
+    min-height: 10vh;
+}
+
+.prokaf-navbar .prokaf-logo {
+    max-width: 50%;
+}
+
+.prokaf-navbar .nav-item .nav-link {
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.prokaf-navbar .nav-item .nav-link:hover {
+    color: red;
+}
+
+
+
+/*#endregion*/
+
+
+/*#region ContactUs */
+
+
+.prokaf-contact-us .message-form {
+    padding-right: 9rem !important;
+}
+
+.prokaf-contact-us h1 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.prokaf-contact-us .message-form>div {
+    background-color: #fff;
+    padding: 3rem 3rem 5rem 3rem;
+}
+
+/*#endregion */
